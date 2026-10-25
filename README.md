@@ -1,5 +1,11 @@
 # Customer Churn Prediction using Machine Learning
 
+## 🚀 Live Demo
+
+Try the application here: [Customer Churn Prediction App](https://customer-churn-prediction-csqj96dngmlavnwust3gsg.streamlit.app/)
+
+Enter customer details to estimate churn probability and explore how customer characteristics affect predictions.
+
 ## Project Overview
 A machine learning project that predicts whether a telecom customer is likely to leave the service. The project uses customer account information, subscription details, and service usage attributes to estimate churn probability.
 
