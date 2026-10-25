@@ -42,25 +42,43 @@ The model detected 345 of 374 customers who churned in the test set. Its high re
 
 These results are an initial baseline, not a guarantee of real-world performance.
 
-## Run Locally
 
-Install dependencies:
+## Run the Project Locally
+
+### 1. Clone the repository
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn joblib
+git clone https://github.com/NEH073/customer-churn-prediction.git
+cd customer-churn-prediction
 ```
 
-Train and evaluate the model:
+### 2. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 3. Add the dataset
+
+Place the IBM Telco Customer Churn dataset in the project root and name it `churn.csv`.
+
+### 4. Train the model
 
 ```bash
 python train.py
 ```
 
-Predict churn for an example customer:
+### 5. Launch the web app
 
 ```bash
-python predict.py
+python -m streamlit run app.py
 ```
+
+The app opens in your browser. Enter customer details to view the estimated churn probability.
+
+
+
+
 
 ## Future Improvements
 - Compare additional classification algorithms
